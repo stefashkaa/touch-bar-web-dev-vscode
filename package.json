@@ -1,0 +1,140 @@
+{
+  "name": "touch-bar-web-dev",
+  "displayName": "TouchBarWebDev",
+  "description": "Web development commands for Macbook Touch Bar panel",
+  "version": "1.0.0",
+  "publisher": "stefashkaa",
+  "author": "Stefan Popov <stef4n.popov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-wordcount.git"
+  },
+  "homepage": "https://github.com/microsoft/vscode-wordcount/blob/main/README.md",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "keywords": [
+    "touchbar",
+    "touch bar",
+    "macbook",
+    "macbook pro",
+    "vscode",
+    "visual studio code",
+    "web",
+    "web development",
+    "front-end",
+    "frontend"
+  ],
+  "activationEvents": [
+    "onCommand:touch-bar-web-dev.installScript",
+    "onCommand:touch-bar-web-dev.serveScript",
+    "onCommand:touch-bar-web-dev.buildScript",
+    "onCommand:touch-bar-web-dev.testScript",
+    "onCommand:touch-bar-web-dev.saveAll"
+  ],
+  "main": "./out/extension.js",
+  "capabilities": {
+    "definitionProvider": "true"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "touch-bar-web-dev.installScript",
+        "title": "   📦"
+      },
+      {
+        "command": "touch-bar-web-dev.serveScript",
+        "title": "  ✈️"
+      },
+      {
+        "command": "touch-bar-web-dev.buildScript",
+        "title": " 🛠"
+      },
+      {
+        "command": "touch-bar-web-dev.testScript",
+        "title": "🪲"
+      },
+      {
+        "command": "touch-bar-web-dev.saveAll",
+        "title": "💾"
+      }
+    ],
+    "menus": {
+      "touchBar": [
+        {
+          "command": "touch-bar-web-dev.installScript",
+          "group": "project"
+        },
+        {
+          "command": "touch-bar-web-dev.serveScript",
+          "group": "project"
+        },
+        {
+          "command": "touch-bar-web-dev.buildScript",
+          "group": "project"
+        },
+        {
+          "command": "touch-bar-web-dev.testScript",
+          "group": "project"
+        },
+        {
+          "command": "touch-bar-web-dev.saveAll",
+          "group": "common"
+        }
+      ]
+    },
+    "configuration": [
+      {
+        "title": "Web Dev Touch Bar Settings",
+        "type": "object",
+        "properties": {
+          "touch-bar-web-dev.installScript": {
+            "type": "string",
+            "default": "yarn",
+            "description": "Install Script (`yarn` if not defined)"
+          },
+          "touch-bar-web-dev.serveScript": {
+            "type": "string",
+            "default": "yarn serve",
+            "description": "Serve Script (`yarn serve` if not defined)"
+          },
+          "touch-bar-web-dev.buildScript": {
+            "type": "string",
+            "default": "yarn build",
+            "description": "Build Script (`yarn build` if not defined)"
+          },
+          "touch-bar-web-dev.testScript": {
+            "type": "string",
+            "default": "yarn test",
+            "description": "Test Script (`yarn test` if not defined)"
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.58.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
+  }
+}
