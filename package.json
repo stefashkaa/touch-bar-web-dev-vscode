@@ -2,7 +2,7 @@
   "name": "touch-bar-web-dev",
   "displayName": "TouchBarWebDev",
   "description": "Web development commands for Macbook Touch Bar panel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "StefanPopov",
   "author": "Stefan Popov <stef4n.popov@gmail.com>",
   "repository": {

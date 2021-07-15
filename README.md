@@ -8,11 +8,11 @@ Touch Bar will look like:
 
 ![alt Example](./images/example.jpeg)
 
-1. Install dependencies script (like `yarn`)
-2. Serve project script (like `yarn serve`)
-3. Build project script (like `yarn build`)
-4. Run tests script (like `yarn test`)
-5. Save All function
+1. 💾 Save All function
+2. 📦 Install dependencies script (like `yarn`)
+3. ✈️ Serve project script (like `yarn serve`)
+4. 🛠 Build project script (like `yarn build`)
+5. 🪲 Run tests script (like `yarn test`)
 
 All scripts can be set via `Extension settings`:
 

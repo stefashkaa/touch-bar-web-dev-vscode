@@ -4,9 +4,13 @@ All notable changes to the "touch-bar-web-dev" extension will be documented in t
 
 ## Release 1.0.0
 
-- Install dependencies command
-- Serve project command
-- Build project command
-- Run tests command
-- Save All command
+- 💾 Save All command
+- 📦 Install dependencies command
+- ✈️ Serve project command
+- 🛠 Build project command
+- 🪲 Run tests command
 - Settings for editing the commands above
+
+## Release 1.0.1
+
+- Update docs
