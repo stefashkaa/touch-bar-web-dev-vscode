@@ -10,6 +10,7 @@
     "url": "https://github.com/stefashkaa/touch-bar-web-dev-vscode.git"
   },
   "homepage": "https://github.com/stefashkaa/touch-bar-web-dev-vscode",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.58.0"
   },
