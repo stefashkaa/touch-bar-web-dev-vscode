@@ -35,8 +35,8 @@ Please follow the general rules when developing extensions for this project. It 
 
 Buy me a Coffee
 
-**ETH** 0x7296446105e628f9995d2723c328bce79623df74
-**BTC** 1DVbQoijXQ4yqjoLNPuha51c16o3iJsasu
-**DOT** 15ZuyCrkVRGRMkrQwChhCy3jtjPZiDHSFiTzbVsHeEwYbhbk
+- **ETH** 0x7296446105e628f9995d2723c328bce79623df74
+- **BTC** 1DVbQoijXQ4yqjoLNPuha51c16o3iJsasu
+- **DOT** 15ZuyCrkVRGRMkrQwChhCy3jtjPZiDHSFiTzbVsHeEwYbhbk
 
 **Enjoy!**
