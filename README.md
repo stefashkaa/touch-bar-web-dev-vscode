@@ -29,7 +29,7 @@ You can choose the commands mentioned above using the following settings:
 
 ## Contributing
 
-Please follow the general rules when developing extensions for this project. It can be found [here](https://code.visualstudio.com/api/references/extension-guidelines). Any help is appreciated! :)
+Please follow the general rules when improving this extension. It can be found [here](https://code.visualstudio.com/api/references/extension-guidelines). Any help is appreciated! :)
 
 ## Donate
 

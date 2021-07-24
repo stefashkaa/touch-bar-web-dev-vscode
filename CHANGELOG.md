@@ -14,3 +14,8 @@ All notable changes to the "touch-bar-web-dev" extension will be documented in t
 ## Release 1.0.1
 
 - Update docs
+
+## Release 1.0.2
+
+- Downgrade vscode engine supported version
+- Update docs
